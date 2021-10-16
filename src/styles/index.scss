@@ -11,3 +11,47 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card-col {
+    flex: 0 0 auto;
+    width: 24.666667%;
+}
+
+div.jumbotron h1 {
+    font-weight: 400;
+}
+
+.color-light {
+    color: rgb(240, 239, 235);
+}
+.back-light {
+    background-color: rgb(240, 239, 235);
+}
+
+.color-blue, .nav-link:hover, .navbar-brand:hover {
+    color: rgb(129, 178, 154);
+}
+.back-blue {
+    background-color: rgb(129, 178, 154);
+}
+
+.color-dark {
+    color: rgb(61, 64, 91);
+}
+.back-dark {
+    background-color: rgb(61, 64, 91);
+}
+
+.color-cake {
+    color: rgb(242, 204, 143);
+}
+.back-cake {
+    background-color: rgb(242, 204, 143);
+}
+
+.color-salmon {
+    color: rgb(224, 122, 95);
+}
+.back-salmon {
+    background-color: rgb(224, 122, 95);
+}
