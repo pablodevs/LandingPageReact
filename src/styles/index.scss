@@ -12,15 +12,57 @@
 
 */
 
+/* Scrollbar styles */
+
+.main::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.main::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+ 
+ .main::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+/* General styles */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .card-col {
     flex: 0 0 auto;
-    width: 24.666667%;
+    width: 23.666667%;
+}
+
+div.row > *{
+    padding: 0;
 }
 
 div.jumbotron h1 {
     font-weight: 400;
+    font-size: 5.5vw;
 }
 
+div.card { border: none }
+div.card-body {
+    border: 1px solid rgb(0, 0, 0, 0.12);// rgba(0,0,0,0.125);
+    border-top: none;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+/* Colors for text and background */
 .color-light {
     color: rgb(240, 239, 235);
 }
@@ -28,7 +70,7 @@ div.jumbotron h1 {
     background-color: rgb(240, 239, 235);
 }
 
-.color-blue, .nav-link:hover, .navbar-brand:hover {
+.color-blue { // No funcionan los hovers
     color: rgb(129, 178, 154);
 }
 .back-blue {

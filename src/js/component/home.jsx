@@ -9,13 +9,17 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<main className="container-xxl">
+			<main className="container-xxl" id="style-1">
 				<Jumbotron
 					title="A Warm Welcome!"
 					buttonLabel="Call to action!"
 				/>
 				<Content />
+				<Content />
 			</main>
+			<div className="bg-dark text-light p-5 sticky-bottom text-center">
+				Copyright &copy; Your Website 2021
+			</div>
 		</>
 	);
 };
