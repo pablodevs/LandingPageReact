@@ -56,15 +56,15 @@ div.card-body {
     border: none;
 }
 .btn:hover {
+    background-color: rgb(192, 106, 82);
+}
+.btn:active {
     background-color: rgb(245, 133, 102);
 }
-.btn:focus{
-    box-shadow: none;
-}
+.btn:focus,.btn:active {
+    box-shadow: none !important;
+ }
 /* Colors for text and background */
-.color-light {
-    color: rgb(240, 239, 235);
-}
 .back-light {
     background-color: rgb(240, 239, 235);
 }
