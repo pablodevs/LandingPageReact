@@ -15,7 +15,6 @@ const Home = () => {
 					buttonLabel="Call to action!"
 				/>
 				<Content />
-				<Content />
 			</main>
 			<div className="bg-dark text-light p-5 sticky-bottom text-center">
 				Copyright &copy; Your Website 2021

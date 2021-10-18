@@ -14,31 +14,20 @@
 
 /* Scrollbar styles */
 
-.main::-webkit-scrollbar-track
-{
-    border-radius: 10px;
-    background-color: #F5F5F5;
-}
-
-.main::-webkit-scrollbar
+::-webkit-scrollbar
 {
     width: 12px;
-    background-color: #F5F5F5;
 }
  
- .main::-webkit-scrollbar-thumb
+ ::-webkit-scrollbar-thumb
 {
-    border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
 }
 
-/* General styles */
 
-body::-webkit-scrollbar {
-    display: none;
-}
+/* General styles */
 
 .card-col {
     flex: 0 0 auto;
@@ -56,12 +45,22 @@ div.jumbotron h1 {
 
 div.card { border: none }
 div.card-body {
-    border: 1px solid rgb(0, 0, 0, 0.12);// rgba(0,0,0,0.125);
+    border: 1px solid rgb(0, 0, 0, 0.12);
     border-top: none;
     border-bottom-left-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
 }
 
+.btn, .btn:focus {
+    background-color: rgb(224, 122, 95);
+    border: none;
+}
+.btn:hover {
+    background-color: rgb(245, 133, 102);
+}
+.btn:focus{
+    box-shadow: none;
+}
 /* Colors for text and background */
 .color-light {
     color: rgb(240, 239, 235);
@@ -70,30 +69,10 @@ div.card-body {
     background-color: rgb(240, 239, 235);
 }
 
-.color-blue { // No funcionan los hovers
-    color: rgb(129, 178, 154);
-}
-.back-blue {
-    background-color: rgb(129, 178, 154);
-}
-
 .color-dark {
-    color: rgb(61, 64, 91);
+    color: rgb(40, 42, 59);
 }
 .back-dark {
-    background-color: rgb(61, 64, 91);
+    background-color: rgb(40, 42, 59);
 }
 
-.color-cake {
-    color: rgb(242, 204, 143);
-}
-.back-cake {
-    background-color: rgb(242, 204, 143);
-}
-
-.color-salmon {
-    color: rgb(224, 122, 95);
-}
-.back-salmon {
-    background-color: rgb(224, 122, 95);
-}

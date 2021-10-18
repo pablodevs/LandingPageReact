@@ -3,7 +3,8 @@ import React from "react";
 import { Card } from "./card.jsx";
 
 export const Content = props => {
-	let cardImg = "https://via.placeholder.com/500x325";
+	let cardImg = "https://via.placeholder.com/500x325",
+		cardButtonURL = "https://positivepsychology.com/more-more-more/";
 
 	return (
 		<div className="container-fluid">
@@ -11,32 +12,32 @@ export const Content = props => {
 				<div className="card-col">
 					<Card
 						imageUrl={cardImg}
-						title="Card 1"
-						buttonUrl="https://react-hello-webapp-iota.vercel.app/"
+						title="Card title"
+						buttonUrl={cardButtonURL}
 						buttonLabel="Find Out More!"
 					/>
 				</div>
 				<div className="card-col">
 					<Card
 						imageUrl={cardImg}
-						title="Card 2"
-						buttonUrl="https://react-hello-webapp-iota.vercel.app/"
+						title="Card title"
+						buttonUrl={cardButtonURL}
 						buttonLabel="Find Out More!"
 					/>
 				</div>
 				<div className="card-col">
 					<Card
 						imageUrl={cardImg}
-						title="Card 3"
-						buttonUrl="https://react-hello-webapp-iota.vercel.app/"
+						title="Card title"
+						buttonUrl={cardButtonURL}
 						buttonLabel="Find Out More!"
 					/>
 				</div>
 				<div className="card-col">
 					<Card
 						imageUrl={cardImg}
-						title="Card 4"
-						buttonUrl="https://react-hello-webapp-iota.vercel.app/"
+						title="Card title"
+						buttonUrl={cardButtonURL}
 						buttonLabel="Find Out More!"
 					/>
 				</div>

@@ -13,7 +13,7 @@ export const Card = props => {
 				alt="Card image cap"
 			/>
 			<div className="card-body text-center">
-				<h5 className="card-title">{props.title}</h5>
+				<h5 className="card-title color-dark">{props.title}</h5>
 				<p className="card-text">{loremText}</p>
 				<a
 					href={props.buttonUrl}
