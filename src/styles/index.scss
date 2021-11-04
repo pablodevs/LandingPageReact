@@ -1,33 +1,15 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
-/* Scrollbar styles */
-
-::-webkit-scrollbar
-{
-    width: 12px;
-}
- 
- ::-webkit-scrollbar-thumb
-{
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background-color: #555;
-}
-
 
 /* General styles */
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+main {
+    padding-bottom: 85px;
+}
 
 .card-col {
     flex: 0 0 auto;
